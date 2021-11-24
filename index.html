@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <title>Задание 5</title>
+  <style>
+body {
+    background: #333; /* Цвет фона */
+   
+   }
+  </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, inital-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="main">
+    <div id="calculator-form">
+      <form>
+        <div id="prodcut-price" class="container">
+          <label>Цена товара:</label>
+          <input type="text" name="product-price" placeholder="10$">
+        </div>
+        <div id="product-amount" class="container">
+          <label>Количество товара:</label>
+          <input type="text" name="product-amount" placeholder="5">
+        </div>
+       <div id="result" class="container"></div>
+        <div>
+          <input type="button" value="посчитать" id="calculate-button" onclick="calculate();">
+        </div>
+      </form>
+    </div>
+  </div>
+  <script src="calculator.js" defer></script>
+</body>
+</html>
